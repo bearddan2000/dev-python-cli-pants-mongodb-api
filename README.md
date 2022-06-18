@@ -1,23 +1,21 @@
-# dev-python-cli-pants-ugly-num
+# dev-python-cli-pants-mongodb-api
 
-## dev-Description
-Divide the number by greatest divisible powers of
-2, 3 and 5, if the number becomes 1 then it is an
-ugly number otherwise not.
-Follows functional programming practices.
+## Description
+POC for calling mongodb from python
 
-## dev-Tech stack
+## Tech stack
 - python
 - pants
-
-## dev-Docker stack
+- mongodb
+- 
+## Docker stack
 - pantsbuild/centos7:latest
 
-## dev-To run
+## To run
 `sudo ./install.sh -u`
 
-## dev-To stop (optional)
+## To stop (optional)
 `sudo ./install.sh -d`
 
-## dev-For help
+## For help
 `sudo ./install.sh -h`
